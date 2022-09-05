@@ -1,6 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
+import Todos from './components/Todos';
+import Todo from './components/Todo';
+import Edit from './components/Edit';
 
 function App() {
   return (
