@@ -14,7 +14,7 @@ function Edit() {
 
     const editTheTodo = (e) => {
         e.preventDefault()
-        const updatedTodo = { description: e.target.name.value }
+        const updatedTodo = { name: e.target.name.value }
         editTodo(id, updatedTodo)
         nav(`/${id}`)
     }

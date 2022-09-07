@@ -27,8 +27,7 @@ function Todo() {
             <br />
             <h3>{todo.info}</h3>
             <br />
-            {/* <img className="picture" src={todo.image}></img> */}
-            {/* image doesn't aprear says that something is wrong with the cookies*/}
+            <img className="picture" src={todo.image}></img>
             <br />
             <button onClick={() => {nav(`/${id}/edit`)}}>Edit</button>
             <button onClick={deleteTheTodo}>Delete</button>

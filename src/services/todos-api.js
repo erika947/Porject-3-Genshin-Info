@@ -28,3 +28,9 @@ export const createTodo = (todo) => {
     const response = axios.post(URL, todo)
     return response
 }
+
+export const getWeapons = (weapons) => {
+    const URL = 'http://localhost:3001/todos/weapons'
+    const response = axios.get(URL, weapons)
+    return response
+}

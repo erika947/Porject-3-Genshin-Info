@@ -1,8 +1,10 @@
 import './App.css';
+
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import Todos from './components/Todos';
 import Todo from './components/Todo';
 import Edit from './components/Edit';
+import Weapons from './components/Weapons';
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
           <Route path='/' element={<Todos />} />
           <Route path='/:id' element={<Todo />} />
           <Route path='/:id/edit' element={<Edit />} />
+          <Route path='/weapons' element={<Weapons />} />
         </Routes>
       </Router>
     </div>
