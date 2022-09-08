@@ -30,7 +30,7 @@ export default function Weapons() {
 
                             <li>{weapon.claymore}
                                 <br />
-                                <a href={`/${weapon._id}`}>
+                                <a href={`/weapons/${weapon._id}`}>
                                     <img className="picture" src={weapon.claymoreImage}></img></a>
 
                             </li>
@@ -48,7 +48,7 @@ export default function Weapons() {
 
                             <li className='outline2'>{weapon.polearm}
                                 <br />
-                                <a href={`/${weapon._id}`}>
+                                <a href={`/weapons/${weapon._id}`}>
                                     <img className="picture2" src={weapon.polearmImage}></img></a>
 
                             </li>

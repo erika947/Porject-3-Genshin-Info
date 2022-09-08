@@ -42,6 +42,9 @@ function Todo() {
                     <h3>{todo.weapon}</h3>
                     <br />
                     <h3 className='information'>{todo.info}</h3>
+                    <sup id='cite_ref-1' className='reference'>
+                        <a href='https://genshin.hoyoverse.com/en/character/mondstadt?char=0'>[1]</a>
+                    </sup>
                     <br />
                     <img className="picture" src={todo.image}></img>
                     <br />
