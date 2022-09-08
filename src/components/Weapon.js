@@ -17,7 +17,7 @@ function Weapon() {
         deleteTodo(id) // service in todos-api
         nav('/') // take us back to home screen
     }
-
+console.log('weapon', weapon)
     return (
         <div >
             <div className='wrapper'>
