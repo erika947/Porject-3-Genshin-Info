@@ -37,7 +37,7 @@ export const getWeapons = (weapons) => {
 
 export const getWeapon = (id) => {
     console.log('getweapon')
-    const URL = `https://genshin-api-erika.herokuapp.com/weapons/${id}`
+    const URL = `https://genshin-api-erika.herokuapp.com/todos/weapons/${id}`
     console.log(URL)
     const response = axios.get(URL)
     return response
