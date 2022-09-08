@@ -34,3 +34,9 @@ export const getWeapons = (weapons) => {
     const response = axios.get(URL, weapons)
     return response
 }
+
+export const getWeapon = (id) => {
+    const URL = `http://localhost:3001/weapons/${id}`
+    const response = axios.get(URL)
+    return response
+}

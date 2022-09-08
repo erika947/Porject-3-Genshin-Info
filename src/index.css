@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('https://w.wallhaven.cc/full/x8/wallhaven-x81glo.png');
+  background-size:1950px;
+  background-attachment: fixed;
 }
 
 code {
@@ -12,7 +15,7 @@ code {
     monospace;
 }
 
-*{
+/* *{
   background-color: #3d76b9;
-}
+} */
 

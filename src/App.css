@@ -40,3 +40,23 @@
 ul {
   list-style: none
 }
+
+.header {
+  color: #fff;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 15px;
+}
+
+p{
+  font-size: 23px;
+}
+
+.subHeader{
+  padding: 20px;
+  text-align: center;
+  background: #34659d91;
+  color: #fff;
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+

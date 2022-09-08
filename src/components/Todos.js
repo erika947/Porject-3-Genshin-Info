@@ -2,6 +2,7 @@ import { getTodos } from '../services/todos-api'
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 // import Create from './Create'
+import './homepage.css'
 
 export default function Todos() {
     const [todos, setTodos] = useState([])
@@ -12,33 +13,36 @@ export default function Todos() {
     console.log(todos)
     return (
         <div>
-            <button type="button" class="btn btn-primary">Primary</button>
+            
             <div className='wrapper'>
-                <nav id ="sidebar">
+                <nav id="sidebar">
                     <div className='title'>side menu</div>
                     <ul className=' list-items'>
-                        <li><Link to='/'> Home</Link></li>
-                        <li><Link to='/weapons'> Weapons</Link></li>
-                        <li><Link to='/'> Artifacts</Link></li>
+                        <li><a href='/'> Home</a></li>
+                        <li><a href='/weapons'> Weapons</a></li>
+                        
                     </ul>
                 </nav>
             </div >
-                <div className='columns'>
-            <ul >
-                {todos.map((todo) => {
-                    return (
-                        <li>{todo.name}
-                         <br />
-                         <a href={`/${todo._id}`}>
-                        <img className="picture" src={todo.portrait}></img></a>
-                        </li>
-                        
-                        )
-                    })}
+            <div>
+                <div className='box' id='profiles' >
 
-            </ul>
+                    <ul className='container'>
+                        {todos.map((todo) => {
+                            return (
+                                <li className='outline'>{todo.name}
+                                    <br />
+                                    <a href={`/${todo._id}`}>
+                                        <img className="picture" src={todo.portrait}></img></a>
+                                </li>
 
-                    </div>
+                            )
+                        })}
+
+                    </ul>
+                </div>
+
+            </div>
             {/* <Create /> */}
         </div>
     )
