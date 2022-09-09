@@ -1,9 +1,12 @@
-# Genshin Impact Api Backend
+# Genshin Impact Api Frontend
 What I wanted to do with my backend it be able to create two database schemas that will allow for the user to browse the website for different info base on the character or weapon they selected.
 
 ## Base URL link:
 This is the link that will lead you to my Website that is used in these pages:
 * https://genshin-character-info-app.herokuapp.com/ 
+
+Github URL :
+* https://github.com/erika947/Porject-3-Genshin-Info.git
 
 ## Navgation Bar
 ---
