@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# Genshin Impact Api Backend
+What I wanted to do with my backend it be able to create two database schemas that will allow for the user to browse the website for different info base on the character or weapon they selected.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Base URL link:
+This is the link that will lead you to my Website that is used in these pages:
+* https://genshin-character-info-app.herokuapp.com/ 
 
-## Available Scripts
+## Navgation Bar
+---
+I decided that I wanted to have a easier way for the user to go back and forth from the show page and main page.
 
-In the project directory, you can run:
+In the Navagation Bar there are only two option at the moment which is the Homepage and the Weapons page. I plan to on day add more option such as Artifacts, Talents, etc.
 
-### `npm start`
+## HomePage 
+---
+On the Homepage there are a total of 20 characters that the user can choose from. Once the user has who they want to select they can just click on the image and it will redirect the page to the character Info page.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Weapons Page
+---
+The weapons page is very much similar to the homepage where there is 20 different weapons to select from. Also once clicked on it will redirect to there own page aswell.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Inspiration
+---
+I have recently been playing Genshin Impact and really love the characters. So I wanted to create something that had to do with them.
 
-### `npm test`
+The background that was used for the website was taken by a player who played the game. Really loved the colors that it had and tried to use colors that were around the same shade of blue.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Other functions
+---
+There are two other options that are available when you click on a character. 
 
-### `npm run build`
+Once you are on there info page if you scroll down you will see that there is a Edit and delete button that with allow you to remove a certain character or edit there profile.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Images
+---
+* Credits of images and info go to [Genshin Impact Wiki](https://genshin-impact.fandom.com/wiki/Genshin_Impact_Wiki)
+* Credits of Images and Info go to [The Offical Genshin Impact webPage](https://genshin.hoyoverse.com/en/character/mondstadt?char=0)
+* Wallpaper by [Geulach](https://whvn.cc/x81glo)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Styling
+---
+* Bootstrap was used to edit my edit and delete button
+* CSS Grid
+* Color picker (which help to get the colors from my back ground)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Ideas that I want to work on
+---
+I would love to add more pages and to also add them to my Navagation Bar.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To edit my mouse cursor so it will have the same theme as the website.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To add music to the Homepage.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To add images from the game 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Work on getting the Create page up and running so other characters can be added.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Authors
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* **Erika Rivera** - *Genshin Impact Info Website* - [Express-Api](https://github.com/erika947/Project-3-Express-Api)
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Acknowledgments
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Hat tip to anyone whose code was used
+* Inspiration
+* etc
