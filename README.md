@@ -6,7 +6,7 @@ This is the link that will lead you to my Website that is used in these pages:
 * https://genshin-character-info-app.herokuapp.com/ 
 
 Github URL :
-* https://github.com/erika947/Porject-3-Genshin-Info.git
+* https://github.com/erika947/Project-3-Express-Api.git
 
 ## Navgation Bar
 ---
