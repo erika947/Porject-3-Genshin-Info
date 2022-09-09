@@ -1,7 +1,7 @@
 import { getWeapon, deleteTodo} from '../services/todos-api'
 import { useState, useEffect } from 'react'
 import { useParams, useNavigate} from 'react-router-dom'
-import './infoPage.css'
+import './weaponInfo.css'
 
 function Weapon() {
     const nav = useNavigate
@@ -30,20 +30,25 @@ console.log('weapon', weapon)
                     </ul>
                 </nav>
             </div >
-                <div className='box'>
+            <h3>Rarity:</h3>
+                    <img className="stars" id='stars' src={weapon.rarity}></img>
+                <div className='box2'>
 
-                    <div className='container'>
-                    <h2>{weapon.claymore}</h2>
+                    <div className='container2'>
+                    <h2>{weapon.tool}</h2>
                     <br />
-                    <img className="picture" src={weapon.claymoreImage}></img>
                     <br />
+                    <div className='object'>
+                    <img className="picture2" src={weapon.image}></img>
+                    </div>
+                    <br />
+                    
+                    </div>
+                    <div className='fadedBackground'>
+                    <h2 className="fontColor">Info:</h2>
+                    <h3 className='information2'>{weapon.info}</h3>
                     </div>
                 </div>
-            <br />
-            <div className="text-right">
-                <button type="button" className="btn btn-primary" onClick={() => { nav(`/${id}/edit`) }}>Edit</button>
-                <button type="button" className="btn btn-danger" onClick={deleteTheTodo}>Delete</button>
-            </div>
         </div>
     )
 }

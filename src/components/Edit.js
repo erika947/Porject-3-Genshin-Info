@@ -23,7 +23,13 @@ function Edit() {
         <div>
             <form onSubmit={editTheTodo}>
                 <input type='text' name='name' defaultValue={data.name} />
+                <br />
                 <input type='text' name='element' defaultValue={data.element} />
+                <br />
+                <input type='text' name='weapon' defaultValue={data.weapon} />
+                <br />
+                <input type='text' name='info' defaultValue={data.info} />
+                <br />
 
                 <input type='submit' />
             </form>

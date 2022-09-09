@@ -22,16 +22,15 @@ export default function Weapons() {
                     </ul>
                 </nav>
             </div >
-            <h3>Claymore Suitable for Diluc and Noelle</h3>
             <div className='box'>
                 <ul className='container2'>
                     {weapons.map((weapon) => {
                         return (
 
-                            <li>{weapon.claymore}
+                            <li>{weapon.tool}
                                 <br />
                                 <a href={`/weapons/${weapon._id}`}>
-                                    <img className="picture" src={weapon.claymoreImage}></img></a>
+                                    <img className="picture" src={weapon.image}></img></a>
 
                             </li>
 
@@ -40,24 +39,7 @@ export default function Weapons() {
 
                 </ul>
             </div>
-            <div className='contain'>
-                <h3>Polearms Suitable for ...</h3>
-                <ul className='container2'>
-                    {weapons.map((weapon) => {
-                        return (
-
-                            <li className='outline2'>{weapon.polearm}
-                                <br />
-                                <a href={`/weapons/${weapon._id}`}>
-                                    <img className="picture2" src={weapon.polearmImage}></img></a>
-
-                            </li>
-
-                        )
-                    })}
-
-                </ul>
-            </div>
+            
         </div>
     )
 

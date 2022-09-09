@@ -1,0 +1,118 @@
+.picture2{
+    width: 30vh;
+    height: auto;
+
+}
+
+
+.box2{
+    display: grid;
+    justify-content:center;
+    padding-top: 25px;
+    margin-left: 50%;
+
+
+}
+
+.fontColor{
+    color: #fff;
+    text-align:start;
+}
+
+.container2{
+    display: grid;
+    justify-items: center; 
+    justify-content: space-evenly;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+    
+}
+.information2{
+    display: grid;
+    position: absolute;
+  left: 650px;
+  position: absolute;
+  left: 360px;
+  width: 900px;
+  height: 120px;
+  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+    
+}
+
+
+
+.wrapper{
+    height: 100%;
+    width: 330px;
+    position: relative;
+    
+}
+
+.wrapper #sidebar{
+    position: fixed;
+    height: 100%;
+    width: 270px;
+    background: #34659d91;
+    border: 3px solid #182f4a;
+    
+}
+
+
+#sidebar .title{
+    color: #f2f2f2;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 65px;
+    background: #1d3a5a;
+    text-align: center;
+    
+    
+}
+
+#sidebar .list-items{
+    position: relative;
+    background: #34659d91;
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    padding-left: 0;
+}
+
+#sidebar .list-items li{
+
+    padding-left: 5px;
+    line-height: 50px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    border-bottom:  1px solid #182f4a;
+    background-color: #214165;
+    transition: all 0.2s;
+}
+
+#sidebar .list-items li:hover{
+    box-shadow: 0 0 10px 3px #182f4a;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    }
+
+#sidebar .list-items li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    height: 100%;
+    width: 100%;
+    display: block;
+    background-color: #274c76;
+    
+}
+
+#sidebar li a{
+    color: #fff;
+}
+
+.text-right{
+    margin-top: 10%;
+}
